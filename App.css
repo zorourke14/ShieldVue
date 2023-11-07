@@ -1,0 +1,51 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: 'Comfortaa', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background: rgb(114, 143, 232);
+  color: rgb(183, 158, 158);
+  padding: 1rem;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  align-self: center;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background: rgb(114, 143, 232);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
